@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "strictNullChecks": true,
+      "declaration": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "target": "ESNext",        // Use ESNext for modern JavaScript features
+      "module": "CommonJS",        // Use ESNext to handle imports/exports
+      "moduleResolution": "Node",
+      "resolveJsonModule": true, // If you're importing JSON files
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
